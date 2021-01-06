@@ -1,0 +1,10 @@
+body {
+    color: #E98074;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #EAE7DC;
+    margin: 10px;
+}
+.container-fluid {
+    color: #E98074;
+    /* background-color: #EAE7DC; */
+}
