@@ -9,11 +9,12 @@
     href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" 
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" 
     crossorigin="anonymous">
+    <!--Axios-->
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
     <!--CSS stylesheet-->
-    <link rel="stylesheet"
-    href="thetravelproject.css">
+    <link rel="stylesheet" href="thetravelproject.css">
     <!--jQuery-->
-
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
     <!--Other Javascript Library-->
 
     <!--Google Fonts-->
@@ -24,12 +25,19 @@
         <div class="container-fluid">
           <form class="d-flex">
             <input class="form-control me-2" type="search" id="input" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success" id="button" type="submit">Search</button>
+            <button class="btn btn-outline-success" id="searchButton" type="submit">Search</button>
           </form>
         </div>
       </nav>
+
+      <br>
+<div id="locationContainer"></div>
+      <!-- API  Card-->
+      <div class="container"></div>
+
 </body>
 <script src="thetravelproject.js"></script>
+<script src="weather_thetravelproject.js"></script>
 </html>
 
 <!--Trying to manage pull requests-->
