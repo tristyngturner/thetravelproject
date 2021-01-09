@@ -26,5 +26,3 @@ $button.click("click", (event) => {
         })
 })
 
-//currently can't type in a city, state. Can i change?
-//need to make cards wrap and scroll, think i need to do with div
