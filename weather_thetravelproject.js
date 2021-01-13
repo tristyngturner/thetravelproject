@@ -2,7 +2,7 @@
 document.getElementById("button").addEventListener("click",(event)=>{
     event.preventDefault();
 var input=document.getElementById("input")
-fetch (`http://api.weatherapi.com/v1/current.json?key=11706febca884fdcabd05551210601&q=${input.value}`)
+fetch (`https://api.weatherapi.com/v1/current.json?key=11706febca884fdcabd05551210601&q=${input.value}`)
 //  store api data 
 .then(response => response.json())
 // grab json data
