@@ -15,9 +15,9 @@ function populateLocation(data){
 console.log(data)
 var locationContainer=document.getElementById("locationContainer")
     locationContainer.innerHTML = `
-    <div class="card mb-3" style="max-width: 540px;">
+    <div class="card weatherCard mb-3" style="max-width: 540px;">
         <div class="row no-gutters">
-            <div class="col-md-4">
+            <div class="col-sm-4">
                 <img src="https:${data.current.condition.icon}" class="card-img" alt="temperature">
             </div>
             <div class="col-md-8">
